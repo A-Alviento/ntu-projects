@@ -25,7 +25,7 @@ public class t1q3 {
 		
 		for (i=0; i<n; i++) {
 			System.out.println("Enter integer value for element no." + (i+1) + " : ");
-			a[i] = sc.nextInt();
+			a[i] = sc.nextInt();dddddd
 		}
 		
 		bubble(a, n);
