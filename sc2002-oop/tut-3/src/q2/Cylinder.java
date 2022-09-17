@@ -1,3 +1,4 @@
+package q2;
 
 public class Cylinder extends Circle{
 	int h;
@@ -22,5 +23,4 @@ public class Cylinder extends Circle{
 	public double volume() {
 		return super.area()*this.h;
 	}
-	
 }
