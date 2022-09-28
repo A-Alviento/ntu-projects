@@ -1,8 +1,8 @@
 
 public class PlaneSeat {
 
-	int seatId, customerId;
-	boolean assigned;
+	private int seatId, customerId;
+	private boolean assigned;
 	
 	public PlaneSeat(int seat_id) {
 		this.seatId = seat_id;

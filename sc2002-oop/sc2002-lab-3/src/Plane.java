@@ -19,7 +19,7 @@ public class Plane {
 		for (int i=1; i<12; i++) {
 			count = i;
 			for (int j=i-1; j>=0; j--) {
-				if (pc[count].customerId < pc[j].customerId) {
+				if (pc[count].getCustomerID() < pc[j].getCustomerID()) {
 					tmp = pc[count];
 					pc[count] = pc[j];
 					pc[j] = tmp;

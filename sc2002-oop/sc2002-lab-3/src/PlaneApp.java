@@ -26,6 +26,7 @@ public class PlaneApp {
 			switch(choice) {
 			case 1:
 				p.showNumEmptySeats();
+				
 				break;
 			case 2:
 				p.showEmptySeats();
